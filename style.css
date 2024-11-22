@@ -2,12 +2,12 @@
 .main-div{
     display:grid;
     grid-template-columns: 50%  ;
-    grid-template-rows: 250px 250px ;
+    grid-template-rows: 450px 600px 850px ;
 
     justify-content: center;
     align-content: center;
    /* border:5px solid pink;*/
-
+    
 }
 .p1{
     color:whitesmoke;
@@ -22,15 +22,15 @@
 }
  
 h1{
-    color:whitesmoke;
+    color:#FFD700;
     font-size: 50px; 
 }
 h2{
-    color:whitesmoke;
+    color:#FFD700;
     font-size: 50px;
 }
 h3{
-    color:whitesmoke;
+    color:#FFD700;
     font-size: 50px;
 }
 footer{
@@ -45,8 +45,8 @@ footer{
 }
 .mini-panel{
     background-color: hsl(0, 0%, 5%,0.5);
-    border-top:5px solid #153448;
-    border-bottom:5px solid #153448;
+    border-top:5px solid #FFD700;
+    border-bottom:5px solid #FFD700;
 
 
     padding-top:10px;
@@ -67,8 +67,8 @@ footer{
 
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-top: 100px;
-    margin-bottom:50px;
+    margin-top: 150px;
+    margin-bottom:700px;
 
 }
 .div2{
@@ -78,39 +78,37 @@ footer{
     grid-row-start: 3;
     grid-row-end: 4;
    
-    margin-bottom:50px;
+    margin-bottom: 500px;
     
 
 }
-.div3{
+
+.recommdiv{
     grid-column-start:1;
     grid-column-end: 2;
 
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin-bottom: 350px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    
 
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    column-gap: 70px;
+    row-gap: 40px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows:250px 250px ;
+    /*border:5px solid pink;*/
     
-    
+    margin-bottom: 80px;
 }
-.startButton{
-    background-color: #FF9D3D;
-    border-radius: 35%;
+.inDiv1,.inDiv2, .inDiv3, .inDiv4, .inDiv5, .inDiv6{
+    color:#FFD700;
+    font-weight: 800;
 
-    border:5px solid bisque ;
-    height:150px;
-    width:200px;
-    cursor: pointer;
-    
 }
-.starthead{
-    font-size: 25px;
-    color:black;
-    font-weight: 900;
-}
+
+
 h1,p,h2,footer{
     font-family: "Poppins", sans-serif;
 
@@ -118,9 +116,10 @@ h1,p,h2,footer{
     
   }
 body{
-    background-image: url(./assets/195228-2560x1600-desktop-hd-motorcycle-background.jpg);
+    /*background-image: url(./assets/195228-2560x1600-desktop-hd-motorcycle-background.jpg);
     background-position:center;
-    background-size:cover;
+    background-size:cover;*/
+    background-color: black;
 }
 .flag{
     width:2.5%;

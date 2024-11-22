@@ -16,7 +16,8 @@ body{
     justify-content: center;
     align-content: center;  
 }
-.b1,.b2,.b3,.b4,.b5,.b11,.b22,.b33,.b44,.b55,.b66,.b111,.b222{
+.b1,.b2,.b3,.b4,.b5,.b11,.b22,.b33,.b44,.b55,.b66,.b111,.b222,.b1111,.b2222,.b3333,.b4444,
+.b5555,.b7777,.b6666{
     background-color: #FFD700;
 }
 .h1head{
@@ -73,6 +74,19 @@ color:#FFD700;
 
     display:none;
 }
+.testDivlast{
+    background-color: black;
+    margin-bottom: 300px;
+    display:grid;
+    grid-template-columns: 100%;
+   
+    grid-template-rows: 125px ;
+   color:#FFD700;
+    justify-content: center;
+    align-content: center;
+
+    display:none;
+}
 
 .options{
     display:grid;
@@ -94,6 +108,13 @@ color:#FFD700;
     grid-template-rows: 75px;
     justify-content: center;    
     column-gap: 75px; 
+}
+.options4{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 75px;
+    justify-content: center;    
+    column-gap: 75px;
 }
 .userChoices{
     
