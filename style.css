@@ -29,6 +29,10 @@ h2{
     color:whitesmoke;
     font-size: 50px;
 }
+h3{
+    color:whitesmoke;
+    font-size: 50px;
+}
 footer{
     color:rgb(247, 245, 245);
    
@@ -74,8 +78,38 @@ footer{
     grid-row-start: 3;
     grid-row-end: 4;
    
+    margin-bottom:50px;
+    
+
+}
+.div3{
+    grid-column-start:1;
+    grid-column-end: 2;
+
+    grid-row-start: 4;
+    grid-row-end: 5;
     margin-bottom: 350px;
 
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+.startButton{
+    background-color: #FF9D3D;
+    border-radius: 35%;
+
+    border:5px solid bisque ;
+    height:150px;
+    width:200px;
+    cursor: pointer;
+    
+}
+.starthead{
+    font-size: 25px;
+    color:black;
+    font-weight: 900;
 }
 h1,p,h2,footer{
     font-family: "Poppins", sans-serif;
@@ -90,7 +124,8 @@ body{
 }
 .flag{
     width:2.5%;
-    position:absolute;  
+    position:absolute; 
+    cursor: pointer; 
 }
 .eng{
     right:10px;
@@ -103,6 +138,7 @@ body{
 }
 
 
+
 @media (max-width: 600px) {/*do not forget to change 480*/
 footer{
     font-size:x-small;
@@ -113,7 +149,7 @@ footer{
 }
 .flag{
     right:5px;
-    width:5%;
+    width:6%;
 }
 h1{
     font-size: 20px;

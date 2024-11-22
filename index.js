@@ -1,3 +1,4 @@
+/*translation*/
 function translateToTurkish(){
     document.getElementsByClassName("head1")[0].textContent="TwoWheelLife'a Hoşgeldiniz!";
 
@@ -13,7 +14,6 @@ function translateToEnglish(){
 
     document.getElementsByClassName("head2")[0].textContent="Don't worry if you're unfamiliar with motorcycles; we're here to guide you!";
 
-
     document.getElementsByClassName("p1")[0].textContent="Are you looking for the perfect motorcycle that fits your budget and preferences? You're in the right place! At TwoWheelLife, we understand that choosing the right motorcycle can be a daunting task. Whether you're a seasoned rider or a beginner, our comprehensive guides and expert tips will help you navigate the vast world of motorcycles. From sporty models to cruisers, we've got options for every taste and budget";
     
     document.getElementsByClassName("p2")[0].textContent="Together, we'll help you find the best options available!";
@@ -22,4 +22,15 @@ function translateToEnglish(){
 
 document.getElementsByClassName("tr")[0].onclick=translateToTurkish;
 document.getElementsByClassName("eng")[0].onclick=translateToEnglish;
+
+/*translation*/
+
+/*startbutton*/ 
+document.getElementsByClassName("startButton")[0].addEventListener("mouseover",function(){
+    document.getElementsByClassName("startButton")[0].style.backgroundColor=" #F87A53";
+});
+document.getElementsByClassName("startButton")[0].addEventListener("mouseout",function(){
+    document.getElementsByClassName("startButton")[0].style.backgroundColor=" #FF9D3D";
+});
+/*startbutton*/ 
 
