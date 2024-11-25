@@ -325,6 +325,107 @@ const motor298 = new motorcycle("500cc-1000cc", "Cruiser", "Çift silindir", "Ma
 const motor299 = new motorcycle("1000cc üzeri", "Sport", "Çift silindir", "Manuel", "Ducati", "V4 S");
 const motor300 = new motorcycle("250cc-500cc", "Adventure", "Çift silindir", "Manuel", "BMW", "F750GS");
 
+const motor301 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Yamaha", "MT-09");
+const motor302 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Suzuki", "GSX-S1000");
+const motor303 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Honda", "CBR1000RR");
+const motor304 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Kawasaki", "ZX-10R");
+const motor305 = new motorcycle("1000cc üzeri", "Sport", "Çift silindir", "Manuel", "Ducati", "Panigale V4");
+const motor306 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "BMW", "S1000RR");
+const motor307 = new motorcycle("1000cc üzeri", "Naked", "Üç silindir", "Manuel", "Triumph", "Speed Triple 1200 RS");
+const motor308 = new motorcycle("1000cc üzeri", "Naked", "Çift silindir", "Manuel", "KTM", "1290 Super Duke R");
+const motor309 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "Honda", "CB650R");
+const motor310 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Yamaha", "R1");
+const motor311 = new motorcycle("1000cc üzeri", "Touring", "Çift silindir", "Manuel", "BMW", "R1250 GS");
+const motor312 = new motorcycle("1000cc üzeri", "Touring", "Çift silindir", "Manuel", "Harley-Davidson", "Street Glide");
+const motor313 = new motorcycle("1000cc üzeri", "Cruiser", "Çift silindir", "Manuel", "Indian", "Chief Dark Horse");
+const motor314 = new motorcycle("500cc - 1000cc", "Cruiser", "Tek silindir", "Manuel", "Royal Enfield", "Meteor 350");
+const motor315 = new motorcycle("500cc - 1000cc", "Sport", "Çift silindir", "Manuel", "Kawasaki", "Ninja 650");
+const motor316 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "Suzuki", "V-Strom 650");
+const motor317 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "Honda", "CRF1100L Africa Twin");
+const motor318 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "KTM", "890 Adventure");
+const motor319 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "BMW", "F900R");
+const motor320 = new motorcycle("500cc - 1000cc", "Touring", "Çift silindir", "Manuel", "Honda", "NC750X");
+const motor321 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "Yamaha", "FZ-07");
+const motor322 = new motorcycle("500cc - 1000cc", "Sport", "Çift silindir", "Manuel", "Ducati", "Monster 1200");
+const motor323 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "Kawasaki", "Z900");
+const motor324 = new motorcycle("500cc - 1000cc", "Adventure", "Üç silindir", "Manuel", "Triumph", "Tiger 900");
+const motor325 = new motorcycle("500cc - 1000cc", "Cruiser", "Çift silindir", "Manuel", "Honda", "Rebel 500");
+const motor326 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "Yamaha", "Tenere 700");
+const motor327 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "Kawasaki", "Versys 650");
+const motor328 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "Suzuki", "SV650");
+const motor329 = new motorcycle("500cc - 1000cc", "Cruiser", "Çift silindir", "Manuel", "Harley-Davidson", "Sportster S");
+const motor330 = new motorcycle("500cc - 1000cc", "Naked", "Tek silindir", "Manuel", "BMW", "G310R");
+const motor331 = new motorcycle("500cc - 1000cc", "Naked", "Tek silindir", "Manuel", "KTM", "390 Duke");
+const motor332 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Honda", "CBR600RR");
+const motor333 = new motorcycle("250cc - 500cc", "Naked", "Üç silindir", "Manuel", "Yamaha", "XSR900");
+const motor334 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Ducati", "Streetfighter V4");
+const motor335 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Suzuki", "Hayabusa");
+const motor336 = new motorcycle("250cc - 500cc", "Touring", "Çift silindir", "Manuel", "Honda", "Gold Wing");
+const motor337 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Kawasaki", "H2");
+const motor338 = new motorcycle("250cc - 500cc", "Scooter", "Tek silindir", "Otomatik", "Yamaha", "TMAX");
+const motor339 = new motorcycle("250cc - 500cc", "Touring", "Çift silindir", "Manuel", "BMW", "K1600 GTL");
+const motor340 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Honda", "CBR500R");
+const motor341 = new motorcycle("250cc - 500cc", "Cruiser", "Çift silindir", "Manuel", "Triumph", "Bonneville T120");
+const motor342 = new motorcycle("250cc - 500cc", "Sport", "Tek silindir", "Manuel", "KTM", "250 Duke");
+const motor343 = new motorcycle("250cc - 500cc", "Cruiser", "Çift silindir", "Manuel", "Harley-Davidson", "Pan America 1250");
+const motor344 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Indian", "FTR 1200");
+const motor345 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Yamaha", "R3");
+const motor346 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Ducati", "Scrambler Icon");
+const motor347 = new motorcycle("250cc - 500cc", "Dual-sport", "Tek silindir", "Manuel", "Kawasaki", "KLX300");
+const motor348 = new motorcycle("250cc - 500cc", "Naked", "Tek silindir", "Manuel", "BMW", "R Nine T");
+const motor349 = new motorcycle("250cc - 500cc", "Cruiser", "Çift silindir", "Manuel", "Honda", "Shadow Aero 750");
+const motor350 = new motorcycle("250cc - 500cc", "Cruiser", "Çift silindir", "Manuel", "Royal Enfield", "Interceptor 650");
+const motor351 = new motorcycle("250cc - 500cc", "Scooter", "Tek silindir", "Otomatik", "Suzuki", "Burgman 400");
+const motor352 = new motorcycle("250cc - 500cc", "Naked", "Çift silindir", "Manuel", "Kawasaki", "W800");
+const motor353 = new motorcycle("250cc - 500cc", "Dual-sport", "Tek silindir", "Manuel", "Honda", "CRF250L");
+const motor354 = new motorcycle("250cc - 500cc", "Dual-sport", "Tek silindir", "Manuel", "Yamaha", "WR250R");
+const motor355 = new motorcycle("250cc - 500cc", "Off-road", "Tek silindir", "Manuel", "KTM", "450 EXC-F");
+const motor356 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "BMW", "F850GS");
+const motor357 = new motorcycle("500cc - 1000cc", "Naked", "Üç silindir", "Manuel", "Triumph", "Thruxton RS");
+const motor358 = new motorcycle("500cc - 1000cc", "Cruiser", "Çift silindir", "Manuel", "Indian", "Scout Bobber");
+const motor359 = new motorcycle("500cc - 1000cc", "Naked", "Çift silindir", "Manuel", "Kawasaki", "Z650");
+const motor360 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Suzuki", "GSX-R1000");
+const motor361 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Honda", "CBR300R");
+const motor362 = new motorcycle("250cc - 500cc", "Naked", "Tek silindir", "Manuel", "KTM", "125 Duke");
+const motor363 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Yamaha", "FZ6R");
+const motor364 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Ducati", "Hypermotard 950");
+const motor365 = new motorcycle("250cc - 500cc", "Sport", "Dört silindir", "Manuel", "Kawasaki", "Ninja ZX-6R");
+const motor366 = new motorcycle("500cc - 1000cc", "Adventure", "Çift silindir", "Manuel", "Honda", "Africa Twin Adventure Sports");
+const motor367 = new motorcycle("1000cc üzeri", "Touring", "Dört silindir", "Manuel", "BMW", "S 1000 XR");
+const motor368 = new motorcycle("1000cc üzeri", "Cruiser", "Çift silindir", "Manuel", "Harley-Davidson", "Low Rider S");
+const motor369 = new motorcycle("1000cc üzeri", "Naked", "Dört silindir", "Manuel", "Yamaha", "VMAX");
+const motor370 = new motorcycle("500cc - 1000cc", "Off-road", "Çift silindir", "Manuel", "Suzuki", "RM-Z450");
+const motor371 = new motorcycle("500cc - 1000cc", "Dual-sport", "Tek silindir", "Manuel", "Honda", "CRF450L");
+const motor372 = new motorcycle("500cc - 1000cc", "Off-road", "Tek silindir", "Manuel", "KTM", "500 EXC-F");
+const motor373 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Yamaha", "YZF-R6");
+const motor374 = new motorcycle("500cc - 1000cc", "Naked", "Dört silindir", "Manuel", "Kawasaki", "Z1000");
+const motor375 = new motorcycle("1000cc üzeri", "Touring", "Dört silindir", "Manuel", "BMW", "R1200GS");
+const motor376 = new motorcycle("250cc - 500cc", "Sport", "Tek silindir", "Manuel", "Honda", "CBR125R");
+const motor377 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Suzuki", "GSX-R750");
+const motor378 = new motorcycle("1000cc üzeri", "Cruiser", "Üç silindir", "Manuel", "Triumph", "Rocket 3");
+const motor379 = new motorcycle("500cc - 1000cc", "Sport", "Dört silindir", "Manuel", "Yamaha", "MT-07");
+const motor380 = new motorcycle("250cc - 500cc", "Adventure", "Çift silindir", "Manuel", "Honda", "CB500X");
+const motor381 = new motorcycle("250cc - 500cc", "Naked", "Tek silindir", "Manuel", "Kawasaki", "Z125 Pro");
+const motor382 = new motorcycle("250cc - 500cc", "Touring", "Çift silindir", "Manuel", "Ducati", "Multistrada V4");
+const motor383 = new motorcycle("250cc - 500cc", "Sport", "Tek silindir", "Manuel", "KTM", "RC 390");
+const motor384 = new motorcycle("250cc - 500cc", "Adventure", "Çift silindir", "Manuel", "BMW", "G310GS");
+const motor385 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Suzuki", "GSX250R");
+const motor386 = new motorcycle("250cc - 500cc", "Naked", "Çift silindir", "Manuel", "Yamaha", "FZ-09");
+const motor387 = new motorcycle("250cc - 500cc", "Naked", "Çift silindir", "Manuel", "Kawasaki", "Ninja 400");
+const motor388 = new motorcycle("250cc - 500cc", "Sport", "Çift silindir", "Manuel", "Honda", "CBR150R");
+const motor389 = new motorcycle("500cc - 1000cc", "Cruiser", "Dört silindir", "Manuel", "Ducati", "Diavel 1260");
+const motor390 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Yamaha", "YZF-R1M");
+const motor391 = new motorcycle("1000cc üzeri", "Cruiser", "Çift silindir", "Manuel", "BMW", "R18");
+const motor392 = new motorcycle("1000cc üzeri", "Adventure", "Çift silindir", "Manuel", "Triumph", "Tiger 1200");
+const motor393 = new motorcycle("1000cc üzeri", "Cruiser", "Çift silindir", "Manuel", "Indian", "Chieftain Limited");
+const motor394 = new motorcycle("1000cc üzeri", "Adventure", "Çift silindir", "Manuel", "Suzuki", "V-Strom 1000");
+const motor395 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Honda", "CB1000R");
+const motor396 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "Kawasaki", "ZX-14R");
+const motor397 = new motorcycle("500cc - 1000cc", "Classic", "Tek silindir", "Manuel", "Yamaha", "SR400");
+const motor398 = new motorcycle("1000cc üzeri", "Sport", "Çift silindir", "Manuel", "Ducati", "Panigale V2");
+const motor399 = new motorcycle("1000cc üzeri", "Sport", "Dört silindir", "Manuel", "BMW", "K1200S");
+const motor400 = new motorcycle("500cc - 1000cc", "Enduro", "Tek silindir", "Manuel", "KTM", "690 Enduro R");
+
 var motorcycles = [
     motor1, motor2, motor3, motor4, motor5, motor6, motor7, motor8, motor9, motor10,
     motor11, motor12, motor13, motor14, motor15, motor16, motor17, motor18, motor19, motor20,
@@ -355,8 +456,19 @@ var motorcycles = [
     motor261, motor262, motor263, motor264, motor265, motor266, motor267, motor268, motor269, motor270,
     motor271, motor272, motor273, motor274, motor275, motor276, motor277, motor278, motor279, motor280,
     motor281, motor282, motor283, motor284, motor285, motor286, motor287, motor288, motor289, motor290,
-    motor291, motor292, motor293, motor294, motor295, motor296, motor297, motor298, motor299, motor300
+    motor291, motor292, motor293, motor294, motor295, motor296, motor297, motor298, motor299, motor300,
+    motor301, motor302, motor303, motor304, motor305, motor306, motor307, motor308, motor309, motor310,
+    motor311, motor312, motor313, motor314, motor315, motor316, motor317, motor318, motor319, motor320,
+    motor321, motor322, motor323, motor324, motor325, motor326, motor327, motor328, motor329, motor330,
+    motor331, motor332, motor333, motor334, motor335, motor336, motor337, motor338, motor339, motor340,
+    motor341, motor342, motor343, motor344, motor345, motor346, motor347, motor348, motor349, motor350,
+    motor351, motor352, motor353, motor354, motor355, motor356, motor357, motor358, motor359, motor360,
+    motor361, motor362, motor363, motor364, motor365, motor366, motor367, motor368, motor369, motor370,
+    motor371, motor372, motor373, motor374, motor375, motor376, motor377, motor378, motor379, motor380,
+    motor381, motor382, motor383, motor384, motor385, motor386, motor387, motor388, motor389, motor390,
+    motor391, motor392, motor393, motor394, motor395, motor396, motor397, motor398, motor399, motor400
 ];
+
 
 
 /*then lets define every single motorcyle model as far as we can afford this is
