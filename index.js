@@ -495,6 +495,54 @@ document.querySelector(".inDiv6").textContent=motorcycles[random6].brand + motor
 
 /*recommend random motors*/
 
+/*eventlisteners for divs to adjust effects*/
+
+window.addEventListener("scroll",()=>{
+    /*div1 */    
+    const rect = document.querySelector(".div1").getBoundingClientRect();
+       
+
+    // Div ekranın ortasına geldiyse büyüt
+    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        document.querySelector(".div1").style.transform = "scale(1.5)";
+    } else {
+        // Ekrandan çıktıysa küçült
+        document.querySelector(".div1").style.transform = "scale(1)";
+    }
+    /*div1 */
+
+    /*div2*/
+    
+    const rect2 = document.querySelector(".div2").getBoundingClientRect();
+    
+    // Div ekranın ortasına geldiyse büyüt
+    if (rect2.top >= 0 && rect2.bottom <= window.innerHeight) {
+        
+        document.querySelector(".div2").style.transform = "scale(1.5)";
+    } else {
+        // Ekrandan çıktıysa küçült
+        document.querySelector(".div2").style.transform = "scale(1)";
+    }
+    /*div2*/
+
+    /*div3*/
+    
+    const rect3 = document.querySelector(".recommdiv").getBoundingClientRect();
+    
+    // Div ekranın ortasına geldiyse büyüt
+    if (rect3.top >= 0 && rect3.bottom <= window.innerHeight) {
+        
+        document.querySelector(".recommdiv").style.transform = "scaleX(1.2) scaleY(1.1)";
+        
+    } else {
+        // Ekrandan çıktıysa küçült
+        document.querySelector(".recommdiv").style.transform = "scale(1)";
+    }
+    /*div3*/
+
+});
+/*eventlisteners for divs to adjust effects */
+
 /*translation*/
 function translateToTurkish(){
     document.getElementsByClassName("head1")[0].textContent="TwoWheelLife'a Hoşgeldiniz!";
@@ -521,6 +569,7 @@ document.getElementsByClassName("tr")[0].onclick=translateToTurkish;
 document.getElementsByClassName("eng")[0].onclick=translateToEnglish;
 
 /*translation*/
+
 
 
 
