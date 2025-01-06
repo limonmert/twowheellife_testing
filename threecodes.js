@@ -1,0 +1,1 @@
+import * as myTHREE from "three";

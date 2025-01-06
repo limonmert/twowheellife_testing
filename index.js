@@ -543,6 +543,8 @@ window.addEventListener("scroll",()=>{
 });
 /*eventlisteners for divs to adjust effects */
 
+
+
 /*translation*/
 function translateToTurkish(){
     document.getElementsByClassName("head1")[0].textContent="TwoWheelLife'a Hoşgeldiniz!";

@@ -1,0 +1,5 @@
+Projenin kodunu TEK BAŞIMA ,sıfır bilgiyle başlayarak yazmaya çalıştım. Fakat bitiremedim  yarım
+kaldı.Projenin fikri ve tasarımı için sadece Doğukan Şendoğan Katkı sundu onunla buluşup 
+birşeyler yapmaya çalıştık.Diğer 2 arkadaş hiçbir katkı sunmadı.
+
+https://limonmert.github.io/twowheellife_testing/
