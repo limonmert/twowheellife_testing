@@ -139,6 +139,12 @@ body{
     position:absolute; 
     cursor: pointer; 
 }
+.login{
+    position:absolute;
+    width:7.5%;
+    right:60px;
+   
+}
 .eng{
     right:10px;
     bottom:0px;
